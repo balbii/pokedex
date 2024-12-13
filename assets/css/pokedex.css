@@ -108,6 +108,24 @@
     padding: 0;
     list-style: none;
 }
+.pokemon a{
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border: 1px solid white;
+    margin-top: 0.40rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-size: 0.825rem;
+    padding: 0.1rem 0;
+}
+.pokemon a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: #fff;
+    border: 1px solid white;
+    transition: 0.5s ease;
+}
 
 .pokemon .detail {
     display: flex;
